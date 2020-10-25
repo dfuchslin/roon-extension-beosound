@@ -1,0 +1,15 @@
+{
+  "name": "roon-extension-beosound",
+  "version": "0.0.1",
+  "description": "Roon Extension for volume control using the Bang & Olufsen BeoSounds Essence remote",
+  "main": "app.js",
+  "author": "dfuchslin",
+  "license": "MIT",
+  "dependencies": {
+    "node-beosound-essence": "github:dfuchslin/node-beosound-essence",
+    "node-roon-api": "github:roonlabs/node-roon-api",
+    "node-roon-api-settings": "github:roonlabs/node-roon-api-settings",
+    "node-roon-api-status": "github:roonlabs/node-roon-api-status",
+    "node-roon-api-transport": "github:roonlabs/node-roon-api-transport"
+  }
+}
